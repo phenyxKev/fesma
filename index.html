@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Fesma</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="painter, fesma, Filippo Esmaily, art, photograph, photography, artist, Valencia">
+    <meta name="description" content="Painter & Photographer artist based in Valencia">
+    <link rel="shortcut icon" type="image/png" href="./images/icons/favicon.ico">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">    
+    <script src="https://kit.fontawesome.com/7d5dc0fe8f.js" crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <meta name="robots" content="index,follow">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KBY958CE7Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date()); gtag('config', 'G-KBY958CE7Q');
+    </script>
+</head>
+<body>
+
+<div id="container">
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#container"><i class="fa fa-home"></i>HOME</a></li>
+                <li class="screen"><a href="./pages/NFT.html"><img src="./images/icons/opensea.png" alt="opensea logo">NFT</a></li>
+                <li class="screen"><a href="#paintings"><i class="fa fa-th"></i>PAINTINGS</a></li>
+                <li class="screen"><a href="#projects"><i class="fa fa-film"></i>PROJECTS</a></li>
+                <li class="screen"><a href="#about"><i class="fa fa-user"></i>ABOUT</a></li>               
+                <li class="screen"><a href="#contact"><i class="fa fa-envelope"></i>CONTACT</a></li>
+            </ul>        
+            <button id="openButton"><i class="fas fa-bars"></i>MENU</button>
+            <aside>
+                <button id="closeButton"><i class="fas fa-times"></i>CLOSE</button>
+                <ul>
+                    <li><a href="#container"><i class="fa fa-home"></i>HOME</a></li>
+                    <li><a href="./pages/NFT.html"><img src="./images/icons/opensea.png" alt="opensea logo">NFT</a></li>
+                    <li><a href="#paintings"><i class="fa fa-th"></i>PAINTINGS</a></li>
+                    <li><a href="#projects"><i class="fa fa-film"></i>PROJECTS</a></li>
+                    <li><a href="#about"><i class="fa fa-user"></i>ABOUT</a></li>
+                    <li><a href="./pages/expos.html"><i class="fa fa-trophy"></i>EXPOSITIONS</a></li>                  
+                    <li><a href="#contact"><i class="fa fa-envelope"></i>CONTACT</a></li>
+                </ul>
+                <p>&copy; fesma.art</p>
+            </aside>
+        </nav>
+        <div id="home">
+            <div>
+                <q>
+                    Every child is an artist. The problem is how to remain an artist once we grow up.                    
+                </q>
+                <br>
+                <cite>Pablo Picasso<cite>
+                <hr>
+                <ul>
+                    <li><a href="https://opensea.io/FESMA"><img src="./images/icons/opensea-grayscale.png" alt="opensea logo">OpenSea</a></li>
+                    <li><a href="https://www.instagram.com/fesma.art/"><i class="fab fa-instagram"></i>@fesma.art</a></li>
+                </ul>
+            </div>
+        </div>    
+    </header>
+
+    <section id="paintings">
+        <h2>PAINTINGS</h2>
+        <h3>#CriticArt</h3>
+        <h4>CriticArt is my collection of works that want to make you think<br>My personal critique to the contemporary society</h4>
+        <div class="mainSlide">
+            <button class="prev" onclick="prev()"><i class="fa fa-angle-left"></i></button>
+            <img id="slide" src="./images/criticart/Freedom Lavender road, 130x100 cm, acrylic on canvas, 2022.jpg" alt="Freedom Lavender road, 130x100 cm, acrylic on canvas, 2022">
+            <button class="next" onclick="next()"><i class="fa fa-angle-right"></i></button>
+        </div>
+        <div class="caption-container">
+            <p id="caption">Freedom Lavender road, 130x100 cm, acrylic on canvas, 2022</p>
+        </div>
+        <div class="thumbnails-container">
+            <div class="thumbnails">
+                <img class="thumbnail active" src="./images/criticart/Freedom Lavender road, 130x100 cm, acrylic on canvas, 2022.jpg" alt="Freedom Lavender road, 130x100 cm, acrylic on canvas, 2022" onclick="goToSlide(0)">
+                <img class="thumbnail" src="./images/criticart/Guardian Angel, 210x115 cm, acrylic on canvas, 2022.jpg" alt="Guardian Angel, 210x115 cm, acrylic on canvas, 2022" onclick="goToSlide(1)">
+                <img class="thumbnail" src="./images/criticart/The kiss of Angels, triptic 305x115 cm, acrylic on canvas, 2021.jpg" alt="The kiss of Angels, triptic 305x115 cm, acrylic on canvas, 2021" onclick="goToSlide(2)">
+                <img class="thumbnail" src="./images/criticart/Morpheus, 100x80 cm, acrylic on canvas, 2021.jpg" alt="Morpheus, 100x80 cm, acrylic on canvas, 2021"  onclick="goToSlide(3)">
+                <img class="thumbnail" src="./images/criticart/New Freedom Order, 100x80 cm, acrylic on canvas, 2022.jpg" alt="New Freedom Order, 100x80 cm, acrylic on canvas, 2022"  onclick="goToSlide(4)">
+                <img class="thumbnail" src="./images/criticart/See you, 100x80 cm,  acrylic on canvas, 2021.jpg" alt="See you, 100x80 cm,  acrylic on canvas, 2021"  onclick="goToSlide(5)">
+                <img class="thumbnail" src="./images/criticart/Meditation Trip, 100x73 cm, acrylic on canvas, 2021.jpg" alt="Meditation Trip, 100x73 cm, acrylic on canvas, 2021"  onclick="goToSlide(6)">
+                <img class="thumbnail" src="./images/criticart/Foodporn, 80x60 cm, acrylic on canvas, 2021.jpg" alt="Foodporn, 80x60 cm, acrylic on canvas, 2021"  onclick="goToSlide(7)">
+                <img class="thumbnail" src="./images/criticart/Disconnection, 80x60 cm, acrylic on canvas, 2021.jpg" alt="Disconnection, 80x60 cm, acrylic on canvas, 2021"  onclick="goToSlide(8)">
+                <img class="thumbnail" src="./images/criticart/Wanna play, 80x60 cm , acrylic on canvas, 2021.jpg" alt="Wanna play, 80x60 cm , acrylic on canvas, 2021"  onclick="goToSlide(9)">
+                <img class="thumbnail" src="./images/criticart/Uniformity, 150x100 cm, acrylic on canvas, 2021.jpg" alt="Uniformity, 150x100 cm, acrylic on canvas, 2021.jpg"  onclick="goToSlide(10)">
+                <img class="thumbnail" src="./images/criticart/Little Red Riding Hood wolf hunter, 115x75 cm, acrylic on canvas, 2021.jpg" alt="Little Red Riding Hood wolf hunter, 115x75 cm, acrylic on canvas, 2021"  onclick="goToSlide(11)">
+                <img class="thumbnail" src="./images/criticart/Delicacy of democracy, 100x80 cm, acrylic on canvas, 2021.jpg" alt="Delicacy of democracy, 100x80 cm, acrylic on canvas, 2021"  onclick="goToSlide(12)">
+                <img class="thumbnail" src="./images/criticart/Der Chip Match Frei, 100x70 cm, acrylic on canvas, 2021.jpg" alt="Der Chip Match Frei, 100x70 cm, acrylic on canvas, 2021"  onclick="goToSlide(13)">
+            </div>                
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>ABOUT ME</h2>
+        <h4>Painter / Photographer / Activist</h4>
+        <p>
+            I grew up in Bologna, where I had the opportunity to receive my cultural influences. 
+            There, I studied the High school of Art and the I got the Degree in cinema and Visual arts. 
+            I developed my sensibility when I started to explore the "Planet" around me. 
+            Because, After studies, I started "the trip of my life" that brought me to live to Tenerife, Vigo, London, Luxembourg 
+            and, nowadays, Valencia.
+        </p>
+        <div id="profile">
+            <img src="./images/Filippo.jpg" alt="Filippo Esmaily">
+        </div>
+        <p>
+            I am multidisciplinary artist, I work with paintings and photography to try to transmit my vision of the contemporary World. 
+            The social critics of the system is the base in which I develop my artworks. 
+            I like to consider myself an artist activist, because with the artistic commitment I add a social commitment. 
+            Especially towards human rights and the social discrimination of minorities who have an out-of-the-box thinking.
+            My artworks are the product of my meditations. My art is my way to try to change the World !
+        </p>
+        <div class="expos">
+            <p>Click to see my : <a href="./pages/expos.html">Expositions, Awards and Publications !</a></p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <h4>Follow my latest projects</h4>
+        <div id="photography">
+            <div class="folder">
+                <a href="./pages/dreaminblue.html">            
+                    <img src="./images/dreaminblue/1_Dream in blue.jpg" alt="Dream In Blue folder">                
+                </a>
+                <div class="caption">
+                    <p>Dream In Blue</p>
+                </div>
+            </div>
+            <div class="folder">
+                <a href="./pages/landscapes.html">            
+                    <img src="./images/landscapes/25_Landscape Cies.jpg" alt="Landscapes folder">                
+                </a>
+                <div class="caption">
+                    <p>Landscapes</p>
+                </div>
+            </div>
+            <div class="folder">
+                <a href="./pages/lucubrations.html">            
+                    <img src="./images/lucubrations/1_In and out.jpg" alt="Lucubrations folder">                
+                </a>
+                <div class="caption">
+                    <p>Lucubrations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>CONTACT ME</h2>
+        <h4>I'd love your feedback!</h4>
+        <div id="contact-network">
+            <ul>
+                <li><i class="fa fa-map-marker"></i>Valencia, Spain</li>
+                <li><a href="mailto:info@fesma.fr"><i class="fa fa-envelope"></i>info@fesma.fr</a></li>
+                <br>
+                <li><a href="https://www.instagram.com/fesma.art/"><i class="fab fa-instagram"></i>@fesma.art</a></li>
+                <li><a href="https://opensea.io/FESMA"><img src="./images/icons/opensea-grayscale.png" alt="opensea logo">OpenSea</a></li>
+            </ul>
+        </div>
+        
+        <form action="https://formspree.io/f/xvolqlkj" method="POST">            
+            <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+            <input name="name" type="text" placeholder="Name" required>
+            <input name="tel" type="tel"placeholder="Phone" required>
+            <input name="email" type="email" placeholder="Email" required>
+            <textarea name="msg" placeholder="Message" rows="4" required></textarea>
+            <div>
+                <button type="submit"><i class="fas fa-paper-plane"></i>GO!</button>    
+            </div>            
+        </form>        
+    </section>    
+
+    <div class="backToTop" onclick="backToTop()">
+        <button ><span class="fa fa-chevron-up"></span></button>     
+    </div>    
+
+    <footer>
+        <div id="footer-logo">
+            <img src="./images/fesma-hr.jpg" alt="fesma logo">
+        </div>
+        <div id="credits">
+            <p>&copy; fesma.art - 2022</p>
+            <p>Valencia, Spain</p>
+            <p>Designed by =&gt; { <i class="fas fa-yin-yang"></i> Phenyx Solutions }</p>
+        </div>
+    </footer>
+
+</div>
+
+<!-- JAVASCRIPT -->
+<script src="./js/main.js" async></script>
+<script src="./js/carrousel.js" async></script>
+
+<script>
+    window.onload = () => {
+        console.log("Welcome to fesma.art !")
+        document.querySelector("form").reset();
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+main {
+  color: #777;
+  padding: 2rem 0.5rem;
+  padding-top: 54px;
+  margin: auto;
+  max-width: fit-content;
+  line-height: 2rem;
+}
+main span {
+  font-style: italic;
+  color: black;
+}
+main a {
+  text-decoration: underline;
+  font-weight: 600;
+  background-color: #80ffd480;
+  border-radius: 0.5rem;
+  width: fit-content;
+  padding: 1rem;
+  margin: 0.8rem;
+}
+main hr {
+  margin: 1.5rem 0;
+}
+
+section {
+  padding: 1rem 0;
+}
+section p {
+  margin: 1rem 0;
+}
+
+.Current {
+  text-align: center;
+}
+.Current h1 {
+  padding: 2rem;
+}
+.Current h2 {
+  font-style: italic;
+  font-size: 18px;
+  margin: 0.8rem;
+}
+.Current div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Current div img {
+  height: 32px;
+  width: 32px;
+  vertical-align: bottom;
+  margin-right: 4px;
+}
+
+/*# sourceMappingURL=expos.css.map */

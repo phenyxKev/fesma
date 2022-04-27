@@ -1,0 +1,21 @@
+footer {
+    background-color: #777;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem;
+    margin: auto;
+    #footer-logo {
+        margin-right: 2rem;
+        img {
+            border-radius: 50%;
+            width: 74px;
+            height: 74px;
+        }
+    }
+    #credits {
+        line-height: 2rem;
+        max-width: 992px;
+    }
+}

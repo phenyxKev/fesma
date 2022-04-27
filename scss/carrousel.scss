@@ -1,0 +1,20 @@
+.thumbnails-container {
+    margin: auto;
+    width: fit-content;
+    .thumbnails {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem;
+        overflow: hidden;
+        .thumbnail {
+            height: 64px;
+            width: 64px;
+            object-fit: cover;
+            opacity: 0.5;
+            cursor: pointer;
+        }
+        .active {
+            opacity: 1;
+        } 
+    }    
+}

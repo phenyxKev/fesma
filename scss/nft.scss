@@ -1,0 +1,23 @@
+main {
+    text-align: center;
+    padding-top: 88px;
+    h4 {
+        width: 100%;
+        font-style: italic;
+        font-weight: 400;
+        text-align: center;
+        padding: 2rem 0;
+        font-size: 15px;
+        color: #777;
+    }
+    iframe {
+        width: 100%;
+        min-height: 100vh;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center
+    }
+}
