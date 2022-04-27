@@ -16,3 +16,9 @@ js structure explanation:
   the <pageName>.js is the js for this specific page
 
 Assets are static and are all inside ./images/ folder
+
+
+About this project:
+  content of fesma.art is about art/photo portfolio project (with some redirection to OpenSea NFT)
+
+Dev => { PhenyxKev }
