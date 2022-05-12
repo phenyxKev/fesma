@@ -3,6 +3,9 @@ const slide = document.getElementById('slide');
 let i = 0; // <- index number
 const thumbnails = document.getElementsByClassName("thumbnail");
 const slides = [ // <- our pictures array
+    "To see or not to see, 97x91cm, oil on canvas, 2022",
+    "Propaganda show, 97x87cm , oil on canvas, 2022",
+    "Hey Chomsky, I am out, 62x45 cm, oil on canvas, 2022",
     "Freedom Lavender road, 130x100 cm, acrylic on canvas, 2022",
     "Guardian Angel, 210x115 cm, acrylic on canvas, 2022",
     "The kiss of Angels, triptic 305x115 cm, acrylic on canvas, 2021",
